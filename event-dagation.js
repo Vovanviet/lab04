@@ -25,7 +25,7 @@ function itemDone(e){
 }
 var el = document.getElementById('shoppingList');
 el.attachEvent = function (onclick, param2) {
-  
+
 }
 if (e.addEventListener){
   el.addEventListener('click',function (e){
